@@ -36,14 +36,7 @@
 }
 
 #phone_button {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 8px 14px;
-  font-weight: 500;
-  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
+  display: none;
 }
 
 #phone_button button {
@@ -106,8 +99,15 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  #phone_button button {
-    display: none;
+@media screen and (max-width: 800px) {
+  #phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
   }
 }
