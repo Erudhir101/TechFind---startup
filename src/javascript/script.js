@@ -7,7 +7,7 @@ $(document).ready(function () {
   const navItems = $(".nav-item");
 
   $(".btn-contact").on("click", function () {
-    const email = "exemplo@dominio.com"; // Altere para o e-mail do destinatário
+    const email = "contato.techfind@outlook.com"; // Altere para o e-mail do destinatário
     const subject = "Interesse em Contratar os Serviços da TechFind";
     const body =
       `Olá,\n\n` +
@@ -78,21 +78,21 @@ $(document).ready(function () {
   ScrollReveal().reveal("#testimonials", {
     origin: "left",
     duration: 2000,
-    distance: "40%",
+    distance: "20%",
     reset: true,
   });
 
   ScrollReveal().reveal("#aboutus", {
     origin: "left",
     duration: 2000,
-    distance: "40%",
+    distance: "20%",
     reset: true,
   });
 
   ScrollReveal().reveal("#planos", {
     origin: "right",
     duration: 2000,
-    distance: "40%",
+    distance: "20%",
     reset: true,
   });
 });
