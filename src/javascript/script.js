@@ -38,7 +38,6 @@ $(document).ready(function () {
   $(window).on("scroll", function () {
     const header = $("header");
     const scrollPosition = $(window).scrollTop() + header.outerHeight();
-    // const scrollPosition = $(window).scrollTop();
 
     let activeSectionIndex = 0;
 
@@ -65,24 +64,35 @@ $(document).ready(function () {
   ScrollReveal().reveal("#home", {
     origin: "top",
     duration: 2000,
-    distance: "40%",
+    distance: "20%",
+    reset: true,
   });
 
   ScrollReveal().reveal("#menu", {
     origin: "right",
     duration: 2000,
-    distance: "40%",
+    distance: "20%",
+    reset: true,
   });
 
   ScrollReveal().reveal("#testimonials", {
     origin: "left",
     duration: 2000,
     distance: "40%",
+    reset: true,
   });
 
-  // ScrollReveal().reveal(".feedback", {
-  //   origin: "right",
-  //   duration: 2000,
-  //   distance: "40%",
-  // });
+  ScrollReveal().reveal("#aboutus", {
+    origin: "left",
+    duration: 2000,
+    distance: "40%",
+    reset: true,
+  });
+
+  ScrollReveal().reveal("#planos", {
+    origin: "right",
+    duration: 2000,
+    distance: "40%",
+    reset: true,
+  });
 });
