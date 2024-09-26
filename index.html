@@ -36,21 +36,26 @@
         </i>
         <ul id="nav_list">
           <li class="nav-item active">
-            <a href="#home" class="scroll-link">Início</a>
+            <a href="#home">Início</a>
           </li>
           <li class="nav-item">
-            <a href="#menu" class="scroll-link">Vantagens</a>
+            <a href="#menu">Vantagens</a>
           </li>
           <li class="nav-item">
-            <a href="#testimonials" class="scroll-link">Avaliações</a>
+            <a href="#testimonials">Avaliações</a>
           </li>
           <li class="nav-item">
-            <a href="#abouts" class="scroll-link">Sobre nós</a>
+            <a href="#abouts">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="#planos">Nossos Produtos</a>
           </li>
         </ul>
 
         <button class="btn-default btn-contact">
-          <a href="" target="_blank" rel="noopener noreferrer"
+          <a
+            href="mailto:someone@example.com?Subject=Hello%20again"
+            target="_blank"
             >Entre em contato</a
           >
         </button>
@@ -63,24 +68,23 @@
       <div id="mobile_menu">
         <ul id="mobile_nav_list">
           <li class="nav-item">
-            <a href="#home" class="scroll-link">Início</a>
+            <a href="#home">Início</a>
           </li>
           <li class="nav-item">
-            <a href="#menu" class="scroll-link">Vantagens</a>
+            <a href="#menu">Vantagens</a>
           </li>
           <li class="nav-item">
-            <a href="#testimonials" class="scroll-link">Avaliações</a>
+            <a href="#testimonials">Avaliações</a>
           </li>
           <li class="nav-item">
-            <a href="aboutus" class="scroll-link">Sobre nós</a>
+            <a href="#aboutus">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="#planos">Nossos produtos</a>
           </li>
         </ul>
 
-        <button class="btn-default btn-contact">
-          <a href="" target="_blank" rel="noopener noreferrer"
-            >Entre em contato</a
-          >
-        </button>
+        <button class="btn-default">Entre em contato</button>
       </div>
     </header>
 
@@ -383,11 +387,80 @@
           <button class="btn-default">Ver mais avaliações</button>
         </div>
       </section>
+      <section id="aboutus">
+        <div id="aboutus_content">
+          <h2 class="section-title">
+            <span>Visão da Techfind</span>
+          </h2>
+          <h3 class="section-subtitle">Quem somos nós?</h3>
+          <div class="about-content">
+            <p>
+              "Em um mercado em que acessar serviços de tecnologia se mostra tão
+              burocrático, principalmente para pequenos e médios empreendedores
+              e demais usuários sem experiência neste âmbito, a TechFind se
+              torna a solução, simplificando os meios de conseguir obter as suas
+              necessidades tecnológicas em um só lugar, com um processo simples,
+              prático e eficiente."
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="planos">
+        <h2 class="section-title">Nossos Planos</h2>
+        <h3 class="section-subtitle">
+          Escolha o melhor plano para o seu negócio
+        </h3>
+
+        <div class="cards-container">
+          <div class="card">
+            <img
+              src="src/images/techbasic.jpg"
+              alt="Plano TechBasic"
+              class="card-image"
+            />
+            <h3 class="card-title">Plano TechBasic</h3>
+            <span class="card-subtitle">O nosso plano Custo-benefício!</span>
+            <p class="card-description">
+              Acesso à plataforma, suporte e consultoria de nível básico.
+            </p>
+            <button class="btn-default">Saiba Mais</button>
+          </div>
+          <div class="card">
+            <img
+              src="src/images/tech-empresarial.jpg"
+              alt="Plano Tech-Empresarial"
+              class="card-image"
+            />
+            <h3 class="card-title">Plano Tech-Empresarial</h3>
+            <span class="card-subtitle">O nosso plano comercial completo!</span>
+            <p class="card-description">
+              Todos os recursos do plano Basic, suporte avançado, consultoria
+              tecnológica completa e suporte on-demmand.
+            </p>
+            <button class="btn-default">Saiba Mais</button>
+          </div>
+          <div class="card">
+            <img
+              src="src/images/tech-advanced.jpg"
+              alt="Plano Tech-Advanced"
+              class="card-image"
+            />
+            <h3 class="card-title">Plano Tech-Advanced</h3>
+            <span class="card-subtitle"
+              >Consultoria tecnológica personalizada de alto nível!</span
+            >
+            <p class="card-description">
+              Todos os recursos do plano Empresarial, gerenciamento de projetos,
+              governança corporativa e suporte customizado.
+            </p>
+            <button class="btn-default">Saiba Mais</button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-      <img src="src/images/wave.svg" alt="" />
-
+      <img src="src/images/wave.svg" alt="wave" />
       <div id="footer_items">
         <span id="copyright"> &copy 2024 TechFind </span>
 
@@ -406,6 +479,7 @@
         </div>
       </div>
     </footer>
+
     <script src="src/javascript/script.js"></script>
   </body>
 </html>
