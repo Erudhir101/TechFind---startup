@@ -57,17 +57,17 @@
   width: fit-content;
 }
 
-#banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 43%;
-  width: 60%;
-  height: 100%;
-  border-radius: 40% 30% 0% 20%;
-  background-color: rgba(255, 153, 0, 0.397);
-  z-index: -1;
-}
+/* #banner::before { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   top: 0; */
+/*   left: 43%; */
+/*   width: 60%; */
+/*   height: 100%; */
+/*   border-radius: 40% 30% 0% 20%; */
+/*   background-color: rgba(255, 153, 0, 0.397); */
+/*   z-index: -1; */
+/* } */
 
 @media screen and (max-width: 1500px) {
   #home {
