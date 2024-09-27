@@ -23,8 +23,7 @@ header {
 
 #nav_list {
   display: flex;
-  /* flex: 1; */
-  gap: 1rem;
+  gap: 1.5rem;
   list-style: none;
 }
 

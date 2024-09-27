@@ -1,0 +1,21 @@
+#support {
+  padding: 20px;
+  text-align: center;
+}
+.support-box {
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.support-box i {
+  font-size: 50px;
+  color: #ff6600;
+}
+.support-box h2 {
+  margin: 10px0;
+}

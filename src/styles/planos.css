@@ -1,7 +1,6 @@
 #planos {
   height: 80rem;
   padding: 200px 20px 0px 20px;
-  background-color: #f9f9f9;
   text-align: center;
 }
 
@@ -14,7 +13,7 @@
 }
 
 .card-planos {
-  background-color: white;
+  background-color: var(--color-primary-1);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
