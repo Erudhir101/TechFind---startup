@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  padding: 30px 8%;
+  padding: 30px 30px;
   position: sticky;
   top: 0;
   background-color: var(--color-primary-1);
@@ -10,6 +10,7 @@ header {
 #navbar {
   width: 100%;
   display: flex;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -22,8 +23,14 @@ header {
 
 #nav_list {
   display: flex;
+  /* flex: 1; */
+  gap: 1rem;
   list-style: none;
-  gap: 48px;
+}
+
+.btn-list {
+  display: flex;
+  gap: 1rem;
 }
 
 .nav-item a {
