@@ -23,16 +23,16 @@ $(document).ready(function () {
   });
 
   $("a.scroll-link").click(function (event) {
-      event.preventDefault();
-      var target = $(this).attr("href");
-      if (target == "#home") $("html, body").animate({ scrollTop: 0 }, 1000);
-      else
-          $("html, body").animate(
-              {
-                  scrollTop: $(target).offset().top - $("header").outerHeight(),
-              },
-              1000,
-          );
+    event.preventDefault();
+    var target = $(this).attr("href");
+    if (target == "#home") $("html, body").animate({ scrollTop: 0 }, 1000);
+    else
+      $("html, body").animate(
+        {
+          scrollTop: $(target).offset().top - $("header").outerHeight() + 8,
+        },
+        1000,
+      );
   });
 
   $(window).on("scroll", function () {
