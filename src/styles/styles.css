@@ -6,6 +6,9 @@
 @import url("footer.css");
 @import url("planos.css");
 @import url("aboutus.css");
+@import url("popup.css");
+@import url("strength-indicator.css");
+@import url("login.css");
 
 :root {
   --color-primary-1: #f1f1f1;

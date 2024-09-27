@@ -1,0 +1,33 @@
+#senha-strength-container {
+    width: 100%;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    height: 10px; /* Altura da barra de força */
+    margin-top: 5px; /* Espaçamento acima da barra */
+}
+
+#senha-strength-bar-pf {
+    height: 100%; 
+    width: 0;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+#senha-strength-bar-pj {
+    height: 100%; 
+    width: 0;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.strength-weak {
+    background-color: #C4C4C4;
+}
+
+.strength-medium {
+    background-color: #FF9500;
+}
+
+.strength-strong {
+    background-color: #D95518;
+}
