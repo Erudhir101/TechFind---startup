@@ -80,7 +80,7 @@
 /*   z-index: 1; */
 /* } */
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1500px) {
   #home {
     min-height: 100%;
     padding-top: 0px;
