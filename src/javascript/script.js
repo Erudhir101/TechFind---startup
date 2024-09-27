@@ -61,6 +61,36 @@ $(document).ready(function () {
     $(navItems[activeSectionIndex]).addClass("active");
   });
 
+  ScrollReveal().reveal("#home", {
+    origin: "top",
+    duration: 2000,
+    distance: "40%",
+  });
+
+  ScrollReveal().reveal("#menu", {
+    origin: "right",
+    duration: 2000,
+    distance: "40%",
+  });
+
+  ScrollReveal().reveal("#aboutus", {
+    origin: "left",
+    duration: 2000,
+    distance: "40%",
+  });
+
+  ScrollReveal().reveal("#planos", {
+    origin: "top",
+    duration: 2000,
+    distance: "40%",
+  });
+
+  ScrollReveal().reveal("#support", {
+    origin: "left",
+    duration: 2000,
+    distance: "40%",
+    });
+  
   $("#cadastro-btn").on("click", function () {
     $("#popup").fadeIn();
     $("#popup-overlay").fadeIn();
