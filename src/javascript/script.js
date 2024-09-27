@@ -29,7 +29,7 @@ $(document).ready(function () {
     else
       $("html, body").animate(
         {
-          scrollTop: $(target).offset().top - $("header").outerHeight(),
+          scrollTop: $(target).offset().top - $("header").outerHeight() + 8,
         },
         1000,
       );
