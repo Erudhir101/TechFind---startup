@@ -9,6 +9,7 @@
 @import url("strength-indicator.css");
 @import url("login.css");
 @import url("support.css");
+@import url("popup-plans.css");
 
 :root {
   --color-primary-1: #f1f1f1;

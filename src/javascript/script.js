@@ -233,3 +233,38 @@ $("#signup-btn").on("click", function () {
   $("#popup-overlay").fadeIn(); // Abre o overlay do cadastro
 });
 
+// Abrir o pop-up do Plano TechBasic
+$('#techbasic-btn').on('click', function () {
+  $('#popup-techbasic').fadeIn();
+  $('#popup-techbasic-overlay').fadeIn();
+});
+
+// Fechar o pop-up do Plano TechBasic
+$('#close-techbasic, #popup-techbasic-overlay').on('click', function () {
+  $('#popup-techbasic').fadeOut();
+  $('#popup-techbasic-overlay').fadeOut();
+});
+
+// Abrir o pop-up do Plano Tech-Empresarial
+$('#techempresarial-btn').on('click', function () {
+  $('#popup-techempresarial').fadeIn();
+  $('#popup-techempresarial-overlay').fadeIn();
+});
+
+// Fechar o pop-up do Plano Tech-Empresarial
+$('#close-techempresarial, #popup-techempresarial-overlay').on('click', function () {
+  $('#popup-techempresarial').fadeOut();
+  $('#popup-techempresarial-overlay').fadeOut();
+});
+
+// Abrir o pop-up do Plano Tech-Advanced
+$('#techadvanced-btn').on('click', function () {
+  $('#popup-techadvanced').fadeIn();
+  $('#popup-techadvanced-overlay').fadeIn();
+});
+
+// Fechar o pop-up do Plano Tech-Advanced
+$('#close-techadvanced, #popup-techadvanced-overlay').on('click', function () {
+  $('#popup-techadvanced').fadeOut();
+  $('#popup-techadvanced-overlay').fadeOut();
+});

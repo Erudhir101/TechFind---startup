@@ -545,7 +545,7 @@
               Acesso à plataforma, com todo o suporte e consultoria de nível
               básico, necessário para uma pequena empresa.
             </p>
-            <button class="btn-default">Saiba Mais</button>
+            <button id="techbasic-btn" class="btn-default">Saiba Mais</button>
           </div>
           <div class="card-planos">
             <svg
@@ -879,7 +879,7 @@
               Todos os recursos do plano Basic, suporte avançado, consultoria
               tecnológica completa e suporte on-demmand.
             </p>
-            <button class="btn-default">Saiba Mais</button>
+            <button id="techempresarial-btn" class="btn-default">Saiba Mais</button>
           </div>
           <div class="card-planos">
             <svg
@@ -1092,7 +1092,7 @@
               Todos os recursos do plano Empresarial, gerenciamento de projetos,
               governança corporativa e suporte customizado.
             </p>
-            <button class="btn-default">Saiba Mais</button>
+            <button id="techadvanced-btn" class="btn-default">Saiba Mais</button>
           </div>
         </div>
       </section>
@@ -1271,6 +1271,37 @@
         </form>
       </div>
     </div>
+
+        <!-- Pop-up Plano TechBasic -->
+    <div id="popup-techbasic-overlay" class="plan-popup-overlay hidden"></div>
+    <div id="popup-techbasic" class="plan-popup hidden">
+        <div class="plan-popup-content">
+            <button class="close-plan-popup-btn" id="close-techbasic">&times;</button>
+            <h2>Plano TechBasic</h2>
+            <p>Acesso à plataforma, suporte e consultoria de nível básico.</p>
+        </div>
+    </div>
+
+    <!-- Pop-up Plano Tech-Empresarial -->
+    <div id="popup-techempresarial-overlay" class="plan-popup-overlay hidden"></div>
+    <div id="popup-techempresarial" class="plan-popup hidden">
+        <div class="plan-popup-content">
+            <button class="close-plan-popup-btn" id="close-techempresarial">&times;</button>
+            <h2>Plano Tech-Empresarial</h2>
+            <p>Todos os recursos do plano Basic, suporte avançado, consultoria tecnológica completa e suporte on-demand.</p>
+        </div>
+    </div>
+
+    <!-- Pop-up Plano Tech-Advanced -->
+    <div id="popup-techadvanced-overlay" class="plan-popup-overlay hidden"></div>
+    <div id="popup-techadvanced" class="plan-popup hidden">
+        <div class="plan-popup-content">
+            <button class="close-plan-popup-btn" id="close-techadvanced">&times;</button>
+            <h2>Plano Tech-Advanced</h2>
+            <p>Todos os recursos do plano Empresarial, gerenciamento de projetos, governança corporativa e suporte customizado.</p>
+        </div>
+    </div>
+
 
     <footer>
       <img src="src/images/wave.svg" alt="wave" />
