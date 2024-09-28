@@ -36,6 +36,7 @@ html {
 
 body {
   background-color: var(--color-primary-1);
+  width: 100vw;
 }
 
 section {
@@ -95,4 +96,15 @@ section {
 
 .section-subtitle {
   font-size: 2.1875rem;
+}
+
+.hidden {
+  display: hidden;
+  height: 100vh;
+}
+
+@media screen and (min-width: 664px) {
+  .hidden {
+    display: none;
+  }
 }
