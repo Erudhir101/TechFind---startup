@@ -96,6 +96,11 @@ $(document).ready(function () {
     $("#popup-overlay").fadeIn();
   });
 
+  $("#cadastro-btn-mobile").on("click", function () {
+    $("#popup").fadeIn();
+    $("#popup-overlay").fadeIn();
+  });
+
   $("#close-cadastro-popup, #popup-overlay").on("click", function () {
     $("#popup").fadeOut();
     $("#popup-overlay").fadeOut();
@@ -185,6 +190,11 @@ $(document).ready(function () {
 });
 
 $("#login-btn").on("click", function () {
+  $("#login-popup").fadeIn();
+  $("#login-popup-overlay").fadeIn();
+});
+
+$("#login-btn-mobile").on("click", function () {
   $("#login-popup").fadeIn();
   $("#login-popup-overlay").fadeIn();
 });
