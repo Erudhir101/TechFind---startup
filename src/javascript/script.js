@@ -29,7 +29,7 @@ $(document).ready(function () {
     else
       $("html, body").animate(
         {
-          scrollTop: $(target).offset().top - $("header").outerHeight() + 10,
+          scrollTop: $(target).offset().top - $("header").outerHeight(),
         },
         1000,
       );
@@ -89,8 +89,8 @@ $(document).ready(function () {
     origin: "left",
     duration: 2000,
     distance: "40%",
-    });
-  
+  });
+
   $("#cadastro-btn").on("click", function () {
     $("#popup").fadeIn();
     $("#popup-overlay").fadeIn();
@@ -234,37 +234,40 @@ $("#signup-btn").on("click", function () {
 });
 
 // Abrir o pop-up do Plano TechBasic
-$('#techbasic-btn').on('click', function () {
-  $('#popup-techbasic').fadeIn();
-  $('#popup-techbasic-overlay').fadeIn();
+$("#techbasic-btn").on("click", function () {
+  $("#popup-techbasic").fadeIn();
+  $("#popup-techbasic-overlay").fadeIn();
 });
 
 // Fechar o pop-up do Plano TechBasic
-$('#close-techbasic, #popup-techbasic-overlay').on('click', function () {
-  $('#popup-techbasic').fadeOut();
-  $('#popup-techbasic-overlay').fadeOut();
+$("#close-techbasic, #popup-techbasic-overlay").on("click", function () {
+  $("#popup-techbasic").fadeOut();
+  $("#popup-techbasic-overlay").fadeOut();
 });
 
 // Abrir o pop-up do Plano Tech-Empresarial
-$('#techempresarial-btn').on('click', function () {
-  $('#popup-techempresarial').fadeIn();
-  $('#popup-techempresarial-overlay').fadeIn();
+$("#techempresarial-btn").on("click", function () {
+  $("#popup-techempresarial").fadeIn();
+  $("#popup-techempresarial-overlay").fadeIn();
 });
 
 // Fechar o pop-up do Plano Tech-Empresarial
-$('#close-techempresarial, #popup-techempresarial-overlay').on('click', function () {
-  $('#popup-techempresarial').fadeOut();
-  $('#popup-techempresarial-overlay').fadeOut();
-});
+$("#close-techempresarial, #popup-techempresarial-overlay").on(
+  "click",
+  function () {
+    $("#popup-techempresarial").fadeOut();
+    $("#popup-techempresarial-overlay").fadeOut();
+  },
+);
 
 // Abrir o pop-up do Plano Tech-Advanced
-$('#techadvanced-btn').on('click', function () {
-  $('#popup-techadvanced').fadeIn();
-  $('#popup-techadvanced-overlay').fadeIn();
+$("#techadvanced-btn").on("click", function () {
+  $("#popup-techadvanced").fadeIn();
+  $("#popup-techadvanced-overlay").fadeIn();
 });
 
 // Fechar o pop-up do Plano Tech-Advanced
-$('#close-techadvanced, #popup-techadvanced-overlay').on('click', function () {
-  $('#popup-techadvanced').fadeOut();
-  $('#popup-techadvanced-overlay').fadeOut();
+$("#close-techadvanced, #popup-techadvanced-overlay").on("click", function () {
+  $("#popup-techadvanced").fadeOut();
+  $("#popup-techadvanced-overlay").fadeOut();
 });
