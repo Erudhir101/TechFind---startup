@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100%; /* Ajusta a altura do overlay para cobrir toda a tela */
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(8px);
     z-index: 999;
@@ -15,13 +15,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: auto; /* Define largura automática baseada no conteúdo */
+    max-width: 90vw; /* Define uma largura máxima relativa ao viewport */
     background-color: white;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     display: none;
+    overflow-y: auto; /* Adiciona rolagem vertical caso o conteúdo exceda a altura da tela */
+    max-height: 80vh; /* Limita a altura máxima do pop-up à 80% da altura da tela */
 }
 
 .plan-popup-content {

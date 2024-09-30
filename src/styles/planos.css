@@ -25,7 +25,13 @@
   justify-content: space-between;
   gap: 16px;
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.card-planos:hover {
+  transform: scale(1.05); /* Aumenta o tamanho do card */
+  box-shadow: 0 0 20px rgba(255, 149, 0, 0.7); /* Borda luminosa */
 }
 
 svg {
